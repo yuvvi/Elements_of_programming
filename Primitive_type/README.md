@@ -5,6 +5,13 @@
 void get_1bits_of_integer(unsigned int val);
 ```
 - Time complexity :
+- Code analysis:
+![get_1bits_of_integer pictorial representation]()
+
+### Analyse code
+Input integer : 22
+                      16 8 4 2 1
+                      1  0 1 1 0
 ## 2.
 ```
 unsigned int get_1bits_of_integer_recursively(unsigned int val,int *iteration);
@@ -19,3 +26,7 @@ void get_1bits_of_int_Brian_Algo(unsigned int val);
 - counts number of 1s without shift operator.
 - Uses substraction & AND operator.
 - Time complexity :
+
+### Output
+![Output](https://github.com/yuvvi/Elements_of_programming/blob/master/Primitive_type/Output_1bits_of_int.PNG)
+
