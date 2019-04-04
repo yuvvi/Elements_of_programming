@@ -6,7 +6,7 @@ void get_1bits_of_integer(unsigned int val);
 ```
 - Time complexity :
 - Code analysis:
-![get_1bits_of_integer pictorial representation]()
+![get_1bits_of_integer pictorial representation](https://github.com/yuvvi/Elements_of_programming/blob/master/Primitive_type/code_analysis.PNG)
 
 ### Analyse code
 Input integer : 22
