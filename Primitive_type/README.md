@@ -1,1 +1,21 @@
-# Count number of 1 bits in an integer
+# Compute number of bits set to 1 for given integer
+
+## 1.
+```
+void get_1bits_of_integer(unsigned int val);
+```
+- Time complexity :
+## 2.
+```
+unsigned int get_1bits_of_integer_recursively(unsigned int val,int *iteration);
+```
+- Used to compute number of bits set to 1 recursively.
+- Time complexity :
+
+## 3. Brian Kernighan's Algorithm
+```
+void get_1bits_of_int_Brian_Algo(unsigned int val);
+```
+- counts number of 1s without shift operator.
+- Uses substraction & AND operator.
+- Time complexity :
